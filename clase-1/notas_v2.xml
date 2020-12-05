@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes>
+ <note>
+  <to>Tove</to>
+  <from>Jani</from>
+  <heading>Reminder</heading>
+  <body>Don't forget me this weekend!</body>
+  <fecha>2020-12-04 19:00:00</fecha>
+ </note>
+ <note>
+  <to>Juan</to>
+  <from>Pablo</from>
+  <heading>Recordatorio</heading>
+  <body>Ir a comprar</body>
+  <fecha>2020-12-01 19:00:00</fecha>
+ </note>
+ <note>
+  <to>Pepe</to>
+  <from>Jose</from>
+  <heading>Recordatorio</heading>
+  <body>Ir a comprar</body>
+  <fecha>2020-12-01 19:00:00</fecha>
+ </note>
+</notes>
