@@ -1,0 +1,20 @@
+
+RewriteEngine On 
+
+Header set Access-Control-Allow-Origin "*"
+
+RewriteCond %{REQUEST_METHOD} =PUT
+RewriteRule ^putUser/([0-9]+)$				putUser.php?id=$1 [END]
+
+RewriteCond %{REQUEST_METHOD} =DELETE
+RewriteRule ^deleteUser$				deleteUser.php [END]
+RewriteRule ^deleteUserURL/([0-9]+)$			deleteUserURL.php?id=$1 [END]
+
+RewriteCond %{REQUEST_METHOD} =GET
+RewriteRule ^peticion/([0-9a-zA-Z]+)/([0-9]+)$		demo.php?marca=$1&modelo=$2 [END]
+RewriteRule ^getUsers$					getUsers.php [END]
+RewriteRule ^getUsersToken/([A-Za-z0-9]+)$		getUsersToken.php?token=$1 [END]
+
+RewriteCond %{REQUEST_METHOD} =POST
+RewriteRule ^servidor$					server_key.php [END]
+RewriteRule ^createUser$				createUser.php [END]
